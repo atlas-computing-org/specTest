@@ -1,3 +1,10 @@
+
+
+/* in the output list, given positions in in the list, i and j, if i is smaller than j, then the value 
+   associate to i have to be smaller than j.
+   
+   the output list has to have the same values of the input list, just in different order. Both need to have 
+   the same size. */
 fn merge_sort<T: Ord + Clone>(list: &[T]) -> Vec<T> {
     // Base case: a list of size 0 or 1 is already sorted
     if list.len() <= 1 {
@@ -13,6 +20,7 @@ fn merge_sort<T: Ord + Clone>(list: &[T]) -> Vec<T> {
     merge(&left, &right)
 }
 
+/* the output list need to have the size equal the sum of the sizes of the input lists. */
 fn merge<T: Ord + Clone>(left: &[T], right: &[T]) -> Vec<T> {
     let mut merged = Vec::with_capacity(left.len() + right.len());
     let mut i = 0;
