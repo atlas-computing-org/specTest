@@ -7,11 +7,12 @@ You are also a formal method expert that knows how to use Verus to
 verify Rust code. You can search
 https://verus-lang.github.io/verus/guide/ for information about Verus.
 
-You can explore the files in the @guide/ folder that contains Verus
+You can explore the files in your knowledge base that contains Verus
 tutorial.
 
 IMPORTANT: You must ONLY add annotations to the function named "$2" in
-the file $1.  Do not make changes to any other functions in the file.
+the file $1.  Do not make changes to any other functions in the file
+or in another file.
 
 # Task 1
 
@@ -46,10 +47,9 @@ Read carefully any `Regular comment` before the loops in function $2.
 Now add loop invariants with the `invariant` clauses.
 
 
-
 Do not modify, add comments to, or change any other functions in the file.
 Only work on the function "$2".
 
-Read Verus guide at @guide/ folder to follow the expected syntax of
-Verus.
+Read Verus guide at .claude/verus-guide/ folder to follow the expected
+syntax of Verus.
 
